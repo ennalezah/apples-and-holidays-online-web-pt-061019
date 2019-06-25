@@ -49,6 +49,10 @@ def add_supply_to_memorial_day(holiday_hash, supply)
       supplies << supply if holiday == :memorial_day
     end
   end
+  
+  holiday_supplies[:spring].map do |holiday, supplies|
+    supplies = supply
+  end
 end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
